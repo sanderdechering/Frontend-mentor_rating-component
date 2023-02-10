@@ -11,10 +11,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -49,7 +46,7 @@ Users should be able to:
 ### What I learned
 
 This is my third Frontend Mentor project. I used Tailwind CSS and Vue TS to create this project.
-I'm currently trying to get better at Tailwind CSS. This was my first time using Typescript in Vue JS.
+I'm currently trying to get better at Tailwind CSS. This was my first time using TypeScript in Vue JS.
 
 ## Author
 
