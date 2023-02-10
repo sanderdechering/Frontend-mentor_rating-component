@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[345px] py-10 px-8 m-auto bg-my-dark-blue/50 rounded-xl">
+  <div class="w-[345px] py-10 px-8 m-auto bg-my-dark-blue/50 rounded-xl" >
 
     <!-- Rating state -->
     <div v-if="!submit.state">
@@ -40,28 +40,22 @@
 
 </template>
 
-<script setup>
+<script setup lang="ts">
 import {reactive} from "vue";
-
-  let faq_items = reactive({
-    1: false,
-    2: false,
-    3: false,
-    4: false,
-    5: false
-  })
+  let faq_items = reactive([false, false, false, false, false])
 
 
   // register click and call selectFeedback
-  function selectFeedback(Number) {
-    for (let x = 0; x < Object.keys(faq_items).length; x++){
+  function selectFeedback(value: number) {
+
+    for (let x:number = 0; x < Object.keys(faq_items).length; x++){
       // check if faq item is set to true
-      if (faq_items[x+1] === true) {
-        faq_items[x+1] = false
+      if (faq_items[x] === true) {
+        faq_items[x] = false
       }
     }
     // set clicked feedback value to true
-    faq_items[Number] = true
+    faq_items[value] = true
   }
 
   let submit = reactive({
@@ -71,7 +65,7 @@ import {reactive} from "vue";
   function submitFeedback(){
     for (let x = 0; x < Object.keys(faq_items).length; x++){
       // check if faq item is set to true
-      if (faq_items[x+1] === true) {
+      if (faq_items[x] === true) {
         submit.state = true
       }
     }
