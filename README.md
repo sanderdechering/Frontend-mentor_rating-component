@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution page](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [frontendmentor.io/profile/sanderdechering](https://www.frontendmentor.io/profile/sanderdechering)
+- Live Site URL: [sanderdechering.github.io/Frontend-mentor_rating-component/](https://sanderdechering.github.io/Frontend-mentor_rating-component/)
 
 ## My process
 
